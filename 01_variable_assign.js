@@ -1,0 +1,22 @@
+var myFullName;
+ myFullName = "Ankita Dounde";
+console.log("01.The Initial Value-",myFullName);
+myFullName = "Ankita Ravindra Dounde";
+console.log("02. Updated Value-",myFullName);
+var myLove = "I Love JS";
+console.log(myLove);
+var firstName = "Ankita";
+console.log("firstName:" ,firstName);
+var lastName ="Dounde";
+console.log("lastName:" ,lastName);
+var age = "24";
+console.log("age:",age);
+var address = "Koshti Galli Sangola.";
+console.log("address:" , address);
+var pin_code = "413307";
+console.log("pin code:",pin_code);
+var gender = "female";
+console.log("gender:",gender);
+var is_married = "No";
+console.log("Is Married:",is_married);
+
