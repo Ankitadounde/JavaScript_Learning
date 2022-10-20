@@ -10,11 +10,8 @@ function vowelsCount(arg1) {
         var isupperCaseAvaible = upperCase.includes(char);
         if (islowerCaseAvaible || isupperCaseAvaible) {
             count = count + 1
-
-        }
-
-
-    }
+}
+}
     console.log(`Total vowels count : ${count}`);
 
 } vowelsCount();
