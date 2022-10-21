@@ -4,6 +4,13 @@ let person ={
     city: "Mumbai",
     age:"42",
     isMarried: true,
+},
+console.log("=========== in operator================");
+let isAvailable = "fullName" in mohitPerson;
+console.log(isAvailable);
+console.log("city" in mohitPerson);
+console.log("===========================");
+
     address:{
         street:"AS Club",
         pin_code:"413307",
@@ -24,7 +31,7 @@ let person ={
 
         
     }
-}
+
 
 person.pincode=413307
 person.profession="cricketer"
