@@ -88,5 +88,39 @@ function traverse_object(object) {
     }
   }
 traverse_object(campusD);
+console.log("********************************************************");
+console.log("04. WAF to print series till 7th occurrence");
+let n1 = 0, n2 = 1, nextTerm;
+
+console.log('==========Fibonacci Series 7th occurance=============>:');
+// var number=7;
+// for (let i = 1; i <= number; i++) {
+//     console.log(n1);
+  
+//     nextTerm = n1 + n2;
+//     n1 = n2;
+//     n2 = nextTerm;
+// }
+
+
+
+function fabo(myNumber) {
+    if (myNumber == 0) {
+        return 0;
+    }
+    if( myNumber == 1) {
+        return 1;
+    }
+    let fN = 0; sN=1; nextN = fN + sN;
+    
+    for (let index = 0; index < myNumber; index++) {
+        fN = sN;
+        sN = nextN;
+        nextN = fN + sN;
+        console.log(nextN);
+    }
+}
+
+fabo(7);
 
 
